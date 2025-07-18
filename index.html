@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internships</title>
+  <meta name="description" content="Explore professional internship programs in web development, mobile app development, Python, and Java. Apply now for hands-on experience and career growth!">
+  <meta name="keywords" content="internship, web development, mobile app, python, java, training, professional, apply">
+  <meta name="author" content="VaultofCodes">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Internship Logo" class="logo" style="width:90px;filter:drop-shadow(0 2px 8px #1877f2aa);" />
+  </header>
+  <main class="internships-section">
+    <div class="application-steps" aria-label="Application Process">
+      <div class="step completed">
+        <span class="step-number">1</span>
+        <span class="step-label">Submit Application</span>
+      </div>
+      <div class="step">
+        <span class="step-number">2</span>
+        <span class="step-label">Interview</span>
+      </div>
+      <div class="step">
+        <span class="step-number">3</span>
+        <span class="step-label">Offer</span>
+      </div>
+      <div class="step">
+        <span class="step-number">4</span>
+        <span class="step-label">Start Internship</span>
+      </div>
+    </div>
+    <div class="search-sort-row">
+      <div class="search-bar-container">
+        <input type="text" id="searchInput" class="search-bar" placeholder="Search internships..." aria-label="Search internships">
+      </div>
+      <div class="sort-bar-container">
+        <select id="sortSelect" class="sort-bar" aria-label="Sort internships">
+          <option value="newest">Sort: Newest</option>
+          <option value="popular">Popular</option>
+          <option value="remote">Remote</option>
+        </select>
+      </div>
+    </div>
+    <div class="internship-cards" role="list">
+      <div class="card" role="listitem">
+        <span class="badge">Remote</span>
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Web Development" class="card-img" />
+        <h2>Full Stack Web Development Internship</h2>
+        <p class="card-desc">Gain hands-on experience building modern, responsive websites and web applications. Work with HTML, CSS, JavaScript, and popular libraries to create real-world projects.</p>
+        <ul class="highlights">
+          <li>Front-end & back-end basics</li>
+          <li>Responsive design techniques</li>
+          <li>Version control with Git</li>
+          <li>Real project assignments</li>
+        </ul>
+        <ul class="details">
+          <li>Duration: 1 month/2 months</li>
+          <li>Location: Virtual</li>
+          <li>Stipend: -</li>
+          <li>Start date: 05/11/2023</li>
+        </ul>
+        <a href="#" class="details-btn" data-modal="webdev" aria-label="View details for Full Stack Web Development Internship">View Details</a>
+      </div>
+      <div class="card" role="listitem">
+        <span class="badge">Popular</span>
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Mobile App Development" class="card-img" />
+        <h2>Mobile Application Development Internship</h2>
+        <p class="card-desc">Dive into the world of mobile app development. Learn to design, build, and test apps for Android and iOS using industry-standard tools and frameworks.</p>
+        <ul class="highlights">
+          <li>UI/UX for mobile</li>
+          <li>Cross-platform development</li>
+          <li>App deployment basics</li>
+          <li>Collaborative teamwork</li>
+        </ul>
+        <ul class="details">
+          <li>Duration: 1 month/2 months</li>
+          <li>Location: Virtual</li>
+          <li>Stipend: -</li>
+          <li>Start date: 05/11/2023</li>
+        </ul>
+        <a href="#" class="details-btn" data-modal="mobile" aria-label="View details for Mobile Application Development Internship">View Details</a>
+      </div>
+      <div class="card" role="listitem">
+        <span class="badge">New</span>
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80" alt="Python Programming" class="card-img" />
+        <h2>Python Software Engineering Internship</h2>
+        <p class="card-desc">Master Python programming from basics to advanced topics. Work on automation, data analysis, and mini-projects to strengthen your coding skills.</p>
+        <ul class="highlights">
+          <li>Core Python concepts</li>
+          <li>Data structures & algorithms</li>
+          <li>Real-world scripting</li>
+          <li>Introduction to data science</li>
+        </ul>
+        <ul class="details">
+          <li>Duration: 1 month/2 months</li>
+          <li>Location: Virtual</li>
+          <li>Stipend: -</li>
+          <li>Start date: 05/11/2023</li>
+        </ul>
+        <a href="#" class="details-btn" data-modal="python" aria-label="View details for Python Software Engineering Internship">View Details</a>
+      </div>
+      <div class="card" role="listitem">
+        <span class="badge">Career Growth</span>
+        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Java Programming" class="card-img" />
+        <h2>Java Enterprise Application Internship</h2>
+        <p class="card-desc">Build a strong foundation in Java programming. Develop applications, understand OOP principles, and explore frameworks used in the industry.</p>
+        <ul class="highlights">
+          <li>Object-oriented programming</li>
+          <li>Java application development</li>
+          <li>Debugging & testing</li>
+          <li>Industry best practices</li>
+        </ul>
+        <ul class="details">
+          <li>Duration: 1 month/2 months</li>
+          <li>Location: Virtual</li>
+          <li>Stipend: -</li>
+          <li>Start date: 05/11/2023</li>
+        </ul>
+        <a href="#" class="details-btn" data-modal="java" aria-label="View details for Java Enterprise Application Internship">View Details</a>
+      </div>
+    </div>
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" aria-labelledby="testimonials-heading">
+      <h2 id="testimonials-heading">Testimonials</h2>
+      <div class="testimonials-list">
+        <div class="testimonial">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe" class="testimonial-avatar" />
+          <blockquote>“This internship gave me real-world experience and confidence to start my tech career. The mentorship was outstanding!”</blockquote>
+          <div class="testimonial-meta">John Doe<br><span>Web Developer Intern</span></div>
+        </div>
+        <div class="testimonial">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Priya Sharma" class="testimonial-avatar" />
+          <blockquote>“I loved the collaborative projects and the supportive team. I learned more in two months than in a year of college!”</blockquote>
+          <div class="testimonial-meta">Priya Sharma<br><span>App Developer Intern</span></div>
+        </div>
+        <div class="testimonial">
+          <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="Alex Kim" class="testimonial-avatar" />
+          <blockquote>“The Python internship was a game-changer for me. I landed a job right after completing the program!”</blockquote>
+          <div class="testimonial-meta">Alex Kim<br><span>Python Intern</span></div>
+        </div>
+        <div class="testimonial">
+          <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sara Lee" class="testimonial-avatar" />
+          <blockquote>“The Java internship helped me understand real enterprise workflows. The projects were challenging and rewarding!”</blockquote>
+          <div class="testimonial-meta">Sara Lee<br><span>Java Intern</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/mrblbrdw" method="POST">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a7.5 7.5 0 0 1 13 0"/></svg>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="input-group">
+          <label for="message">Message</label>
+          <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/></svg>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="contactSuccess" class="contact-success" style="display:none;">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+        <h3>Thank you!</h3>
+        <p>Your message has been sent successfully. We will get back to you soon.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Structure -->
+  <div id="internshipModal" class="modal" aria-modal="true" role="dialog" tabindex="-1" style="display:none;">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close details">&times;</button>
+      <div id="modalBody"></div>
+    </div>
+    <div class="modal-backdrop"></div>
+  </div>
+
+  <script>
+    // Real-time internship card filtering with animation
+    const searchInput = document.getElementById('searchInput');
+    const cards = document.querySelectorAll('.internship-cards .card');
+    searchInput.addEventListener('input', function() {
+      const query = this.value.toLowerCase();
+      cards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        if (text.includes(query)) {
+          card.classList.remove('card-hide');
+        } else {
+          card.classList.add('card-hide');
+        }
+      });
+    });
+
+    // Sorting functionality
+    const sortSelect = document.getElementById('sortSelect');
+    const cardsContainer = document.querySelector('.internship-cards');
+    function sortCards() {
+      const sortBy = sortSelect.value;
+      const cardsArr = Array.from(cardsContainer.children);
+      let sorted;
+      if (sortBy === 'popular') {
+        sorted = cardsArr.sort((a, b) => {
+          const aPopular = a.querySelector('.badge')?.textContent === 'Popular' ? 1 : 0;
+          const bPopular = b.querySelector('.badge')?.textContent === 'Popular' ? 1 : 0;
+          return bPopular - aPopular;
+        });
+      } else if (sortBy === 'remote') {
+        sorted = cardsArr.sort((a, b) => {
+          const aRemote = a.querySelector('.badge')?.textContent === 'Remote' ? 1 : 0;
+          const bRemote = b.querySelector('.badge')?.textContent === 'Remote' ? 1 : 0;
+          return bRemote - aRemote;
+        });
+      } else {
+        // Newest: restore original order (by DOM)
+        sorted = cardsArr;
+      }
+      sorted.forEach(card => cardsContainer.appendChild(card));
+    }
+    sortSelect.addEventListener('change', sortCards);
+
+    // Clickable Stepper
+    const steps = document.querySelectorAll('.application-steps .step');
+    steps.forEach((step, idx) => {
+      step.style.cursor = 'pointer';
+      step.addEventListener('click', () => {
+        steps.forEach((s, i) => {
+          s.classList.toggle('completed', i <= idx);
+        });
+      });
+    });
+
+    // Modal popup for internship details
+    const modal = document.getElementById('internshipModal');
+    const modalBody = document.getElementById('modalBody');
+    const closeModalBtn = document.querySelector('.modal-close');
+    const detailsBtns = document.querySelectorAll('.details-btn');
+    let lastModalKey = null;
+
+    // Internship details data
+    const internshipDetails = {
+      webdev: {
+        title: 'Full Stack Web Development Internship',
+        img: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80',
+        desc: 'Gain hands-on experience building modern, responsive websites and web applications. Work with HTML, CSS, JavaScript, and popular libraries to create real-world projects.',
+        highlights: [
+          'Front-end & back-end basics',
+          'Responsive design techniques',
+          'Version control with Git',
+          'Real project assignments'
+        ],
+        details: [
+          'Duration: 1 month/2 months',
+          'Location: Virtual',
+          'Stipend: -',
+          'Start date: 05/11/2023'
+        ]
+      },
+      mobile: {
+        title: 'Mobile Application Development Internship',
+        img: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80',
+        desc: 'Dive into the world of mobile app development. Learn to design, build, and test apps for Android and iOS using industry-standard tools and frameworks.',
+        highlights: [
+          'UI/UX for mobile',
+          'Cross-platform development',
+          'App deployment basics',
+          'Collaborative teamwork'
+        ],
+        details: [
+          'Duration: 1 month/2 months',
+          'Location: Virtual',
+          'Stipend: -',
+          'Start date: 05/11/2023'
+        ]
+      },
+      python: {
+        title: 'Python Software Engineering Internship',
+        img: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80',
+        desc: 'Master Python programming from basics to advanced topics. Work on automation, data analysis, and mini-projects to strengthen your coding skills.',
+        highlights: [
+          'Core Python concepts',
+          'Data structures & algorithms',
+          'Real-world scripting',
+          'Introduction to data science'
+        ],
+        details: [
+          'Duration: 1 month/2 months',
+          'Location: Virtual',
+          'Stipend: -',
+          'Start date: 05/11/2023'
+        ]
+      },
+      java: {
+        title: 'Java Enterprise Application Internship',
+        img: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80',
+        desc: 'Build a strong foundation in Java programming. Develop applications, understand OOP principles, and explore frameworks used in the industry.',
+        highlights: [
+          'Object-oriented programming',
+          'Java application development',
+          'Debugging & testing',
+          'Industry best practices'
+        ],
+        details: [
+          'Duration: 1 month/2 months',
+          'Location: Virtual',
+          'Stipend: -',
+          'Start date: 05/11/2023'
+        ]
+      }
+    };
+
+    detailsBtns.forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const key = btn.getAttribute('data-modal');
+        lastModalKey = key;
+        const data = internshipDetails[key];
+        if (data) {
+          modalBody.innerHTML = `
+            <img src="${data.img}" alt="${data.title}" class="card-img" style="max-width:320px;display:block;margin:0 auto 18px auto;" />
+            <h2 style="margin-top:0;">${data.title}</h2>
+            <p class="card-desc">${data.desc}</p>
+            <ul class="highlights">${data.highlights.map(h => `<li>${h}</li>`).join('')}</ul>
+            <ul class="details">${data.details.map(d => `<li>${d}</li>`).join('')}</ul>
+            <button class="apply-btn" id="modalApplyBtn">Apply Now</button>
+          `;
+          modal.style.display = 'flex';
+          setTimeout(() => modal.classList.add('open'), 10);
+          document.body.style.overflow = 'hidden';
+
+          // Add Apply Now button handler
+          setTimeout(() => {
+            const modalApplyBtn = document.getElementById('modalApplyBtn');
+            if (modalApplyBtn) {
+              modalApplyBtn.onclick = function() {
+                showModalContactForm();
+              };
+            }
+          }, 0);
+        }
+      });
+    });
+
+    function showModalContactForm() {
+      modalBody.innerHTML = `
+        <form class="contact-form" id="modalContactForm" action="https://formspree.io/f/mrblbrdw" method="POST">
+          <div class="input-group">
+            <label for="modal-name">Name</label>
+            <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a7.5 7.5 0 0 1 13 0"/></svg>
+            <input type="text" id="modal-name" name="name" required autocomplete="name">
+          </div>
+          <div class="input-group">
+            <label for="modal-email">Email</label>
+            <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+            <input type="email" id="modal-email" name="email" required autocomplete="email">
+          </div>
+          <div class="input-group">
+            <label for="modal-message">Message</label>
+            <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/></svg>
+            <textarea id="modal-message" name="message" required></textarea>
+          </div>
+          <button type="submit">Apply Now</button>
+        </form>
+        <div id="modalContactSuccess" class="contact-success" style="display:none;">
+          <h3>Interview details will be shared with you soon.</h3>
+          <button id="backToApplyBtn" class="stepper-btn" style="margin-top:18px;">Back to Apply Page</button>
+        </div>
+      `;
+      setTimeout(() => {
+        const modalContactForm = document.getElementById('modalContactForm');
+        const modalContactSuccess = document.getElementById('modalContactSuccess');
+        if (modalContactForm) {
+          modalContactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(modalContactForm);
+            fetch(modalContactForm.action, {
+              method: 'POST',
+              body: formData,
+              headers: { 'Accept': 'application/json' }
+            })
+            .then(response => {
+              if (response.ok) {
+                modalContactForm.style.display = 'none';
+                modalContactSuccess.style.display = 'flex';
+                // Add handler for back button
+                setTimeout(() => {
+                  const backBtn = document.getElementById('backToApplyBtn');
+                  if (backBtn) {
+                    backBtn.onclick = function() {
+                      closeModal();
+                      // Scroll to Interview step
+                      const interviewStep = document.querySelectorAll('.application-steps .step')[1];
+                      if (interviewStep) {
+                        interviewStep.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                      }
+                    };
+                  }
+                }, 0);
+              } else {
+                alert('There was a problem submitting your application. Please try again.');
+              }
+            })
+            .catch(() => {
+              alert('There was a problem submitting your application. Please try again.');
+            });
+          });
+        }
+      }, 0);
+    }
+
+    closeModalBtn.addEventListener('click', closeModal);
+    modal.querySelector('.modal-backdrop').addEventListener('click', closeModal);
+    function closeModal() {
+      modal.classList.remove('open');
+      setTimeout(() => {
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+      }, 200);
+    }
+    // ESC key closes modal
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+    });
+    // Apply Now button (demo: mailto)
+    // The applyBtn.addEventListener('click', function() { ... }) block is removed as per the new_code,
+    // as the Apply Now button is now directly in the modal.
+
+    // Dark mode toggle
+    const darkToggle = document.getElementById('darkModeToggle');
+    const darkIcon = document.getElementById('darkIcon');
+    function setDarkMode(on) {
+      document.body.classList.toggle('dark-mode', on);
+      localStorage.setItem('darkMode', on ? '1' : '0');
+      darkIcon.innerHTML = on
+        ? '<path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/>' // moon
+        : '<circle cx="12" cy="12" r="5"/><path d="M12 1v2m0 18v2m11-11h-2M3 12H1m16.95 7.07-1.41-1.41M6.34 6.34 4.93 4.93m12.02 0-1.41 1.41M6.34 17.66l-1.41 1.41"/>';
+    }
+    darkToggle.addEventListener('click', () => {
+      setDarkMode(!document.body.classList.contains('dark-mode'));
+    });
+    // On load, set mode from localStorage
+    if (localStorage.getItem('darkMode') === '1') setDarkMode(true);
+
+    // Contact form AJAX submission for custom success message
+    const contactForm = document.getElementById('contactForm');
+    const contactSuccess = document.getElementById('contactSuccess');
+    if (contactForm) {
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const formData = new FormData(contactForm);
+        fetch(contactForm.action, {
+          method: 'POST',
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        })
+        .then(response => {
+          if (response.ok) {
+            contactForm.style.display = 'none';
+            contactSuccess.style.display = 'flex';
+          } else {
+            alert('There was a problem submitting your message. Please try again.');
+          }
+        })
+        .catch(() => {
+          alert('There was a problem submitting your message. Please try again.');
+        });
+      });
+    }
+  </script>
+</body>
+</html> 
